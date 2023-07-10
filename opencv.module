@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.msd",
+    "module": "msd.sdk",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "msd.sdk-0.0.1.aar",
+          "url": "msd.sdk-0.0.1.aar",
+          "size": 61015647,
+          "sha512": "e6d4590dcd573f89311b0c2ea1d9713a39821d914f007a79d11478c8f1daa9415cd7d9931227f99f0cbd503efe9eac66853a5d57f818e4aae3ecd7af7fcc983b",
+          "sha256": "a8802399f7615fce7bb168cfb5c5dbe52d3101acd56fa1c85cdce7ddd4c7788d",
+          "sha1": "819f281b0379a122a7c3ff9c3f385501e09f1721",
+          "md5": "21213272b15475cffc6e8ee22c769127"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "msd.sdk-0.0.1.aar",
+          "url": "msd.sdk-0.0.1.aar",
+          "size": 61015647,
+          "sha512": "e6d4590dcd573f89311b0c2ea1d9713a39821d914f007a79d11478c8f1daa9415cd7d9931227f99f0cbd503efe9eac66853a5d57f818e4aae3ecd7af7fcc983b",
+          "sha256": "a8802399f7615fce7bb168cfb5c5dbe52d3101acd56fa1c85cdce7ddd4c7788d",
+          "sha1": "819f281b0379a122a7c3ff9c3f385501e09f1721",
+          "md5": "21213272b15475cffc6e8ee22c769127"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "msd.sdk-0.0.1-sources.jar",
+          "url": "msd.sdk-0.0.1-sources.jar",
+          "size": 83843,
+          "sha512": "6c9fd2636a40ead33a164d89be0e9d894fdcebaa49c2f55554fb0cb9ce2eda2c8aa7736a6273ce7e99e8cfd6ed372b9cff92b3dc9d9dbcb0b933e7a960145d77",
+          "sha256": "b762ae6f90d068778a99df871ba5ee3f8c48e45293f1caa15b7b7200924a26af",
+          "sha1": "9760071f0184392ecd5a6c8459a30535f6d9f69a",
+          "md5": "947bb051689669e028e1d50512d88f28"
+        }
+      ]
+    }
+  ]
+}
